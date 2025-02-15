@@ -6,7 +6,7 @@ class Ground{
     var skView: SKView!
     var numberOfRectangles = 0
     var floorHeight = height / 2.5
-    let movementSpeed = 0.5 //max(1.0 - Double(round) * 0.0102, 0.2)
+    let movementSpeed = max(0.8 - Double(round) * 0.0102, 0.2)
     var currentFloorHeight = 0.0
     var spriteGenerator : Sprites
     var floorStopped = false
