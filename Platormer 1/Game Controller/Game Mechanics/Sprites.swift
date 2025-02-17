@@ -21,6 +21,9 @@ struct Sprites{
         sprite.xScale = scale
         sprite.yScale = scale
         
+        sprite.color = UIColor.white
+        sprite.colorBlendFactor = 0.5
+        
         if name == "player" {
             playerSprite = sprite
         } else {
